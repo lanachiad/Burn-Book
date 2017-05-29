@@ -1,0 +1,137 @@
+body {
+	background-color: #FF69B4;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Frijole', cursive;
+}
+
+p, a, span, ul, ol, li, td {
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	padding: 10px;
+}
+
+input[type=submit]{
+	background-color: #FF69B4;
+	border: 3px #fff solid;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	transition: background-color 0.5s ease;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+header h1 {
+	font-family: 'Frijole', cursive;
+	font-size: 50px;
+}
+
+.welcome-container {
+	display: flex;
+	justify-content: center;
+}
+
+.welcome {
+	padding: 40px;
+	text-align: center;
+	width: 50%;
+}
+
+.welcome p {
+	font-size: 25px;
+	margin-bottom: 100px;
+}
+
+.welcome a {
+	border: 3px #fff solid;
+	color: #fff;
+	font-size: 20px;
+	padding: 15px;
+	transition: background-color 0.5s ease;
+}
+
+.welcome a:hover {
+	border: 3px #FF69B4 solid;
+	background-color: #fff;
+	color: #FF69B4;
+	transition: background-color 0.5s ease;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.articles-title h2 {
+	text-align: center;
+}
+
+.articles-title a {
+	border: 3px #fff solid;
+	color: #fff;
+	display: table;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 10px;
+	transition: background-color 0.5s ease;
+}
+
+.articles-title a:hover {
+	border: 3px #FF69B4 solid;
+	background-color: #fff;
+	color: #FF69B4;
+	transition: background-color 0.5s ease;
+}
+
+.articles {
+	margin-top: 50px;
+}
+
+.articles table td {
+	padding: 10px;
+}
+
+.articles a {
+	color: #fff;
+}
+
+.articles-wrapper .articles a:hover {
+	text-decoration: underline;
+}
+
+.new-article-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.new-article-wrapper h2 {
+	text-align: center;
+}
+
+.new-article a, .article-links a {
+	color: #fff;
+	text-align: center;
+}
+
+.new-article-wrapper .new-article a:hover, .show-article-wrapper .article-links a:hover {
+	text-decoration: underline;
+}
+
+.show-article-wrapper p {
+	font-size: 20px;
+}
+
+.article-links span {
+	margin: 0 10px;
+}
