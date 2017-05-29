@@ -11,7 +11,7 @@
           <th>Text</th>
         </tr>
        
-        <% if Article.length > 0 %>
+        <% if Article.count > 0 %>
           <% @articles.each do |article| %>
             <tr>
               <td><%= article.title %></td>
